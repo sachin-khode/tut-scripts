@@ -1,0 +1,1 @@
+i@raspberrypi:~ $ docker run -it            -e DISPLAY=$DISPLAY            -e XAUTHORITY=$XAUTH            -v $XSOCK:$XSOCK            -v $XAUTH:$XAUTH            --runtime=nvidia            --device=/dev/video0:/dev/video0            nvcr.io/nvidia/pytorch:19.10-py3
